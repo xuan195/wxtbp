@@ -7,7 +7,7 @@ const tencentcloud = require('tencentcloud-sdk-nodejs')
     const ClientProfile = tencentcloud.common.ClientProfile;
     const HttpProfile = tencentcloud.common.HttpProfile;
 
-    let cred = new Credential("AKIDHOkqnVdfrmTu4xzKnzwe9VdXBai1ZMs7", "SdYDbjgJfBI9l8F9l6nWyEG1aqqcNo0v");
+    let cred = new Credential("xxx", "xxx");
     let httpProfile = new HttpProfile();
     httpProfile.endpoint = "tbp.tencentcloudapi.com";
     let clientProfile = new ClientProfile();
